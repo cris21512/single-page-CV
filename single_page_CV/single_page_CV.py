@@ -8,10 +8,6 @@ from single_page_CV.views.educacion_info import educacion_info
 from single_page_CV.views.mi_github import mis_proyectos
 
 
-class State(rx.State):
-
-    pass
-
 
 def index() -> rx.Component:
     return rx.center(
